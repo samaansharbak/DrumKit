@@ -1,7 +1,7 @@
     
 //selecting the classes
 for (var i=0; i<document.querySelectorAll(".drum").length;   i++){
-
+//Detecting the cliced button
 document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     var buttonInnerHTML= this.innerHTML;
     MakeSound(buttonInnerHTML);
